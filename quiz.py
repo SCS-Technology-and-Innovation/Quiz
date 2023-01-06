@@ -49,16 +49,17 @@ def logarithm(target, pts = 1, level = 1, rows = 1, cols = 3):
     print(f'Feedback,{feedback},,,', file = target)
 
 from boolean import boolean
-        
+from sys import argv # debugging
+
 # true/false example: evaluating a boolean expression
-debug = True
+
 def booleval(target, pts = 1, level = 1):
     bop = {'X': '\\oplus', 'A': '\\wedge', 'O': '\\vee', 'I': '\\rightarrow', 'E': '\\leftrightarrow', 'N': '\\neg'}
     cand = bop.keys() -  {'0', '1', 'N'}
     bor = sample(list(cand), 3)
     expr = 'a {:s} b {:s} c {:s} d'.format(bor[0], bor[1], bor[2])
     shuffle(bor)
-    precedence = ' '.join(bor)
+    precedence = ''.join(bor)
     a = 1 * (random() < 0.5)
     b = 1 * (random() < 0.5)
     c = 1 * (random() < 0.5)
@@ -67,9 +68,12 @@ def booleval(target, pts = 1, level = 1):
     assigned = assigned.replace('b', str(b))
     assigned = assigned.replace('c', str(c))
     assigned = assigned.replace('d', str(d))
-    result = boolean(assigned, precedence[::-1]) # inverted
-    if debug:
-        print(f'{precedence} for {assigned} gives {result}')        
+    result = boolean(assigned, precedence) 
+    prec = [ op for op in precedence ][::-1] # invert
+    if 'debug' in argv:
+        p = ''.join(prec)
+        print(f'{p} for {assigned} gives {result}')
+    precedence = ' '.join(prec)
     for op in bop: # prepare as LaTeX
         expr = expr.replace(op, bop[op]) 
         precedence = precedence.replace(op, bop[op])
@@ -79,7 +83,7 @@ def booleval(target, pts = 1, level = 1):
     question += f' with precedence (from highest to lowest) \\( {precedence} \\)'
     question += f' and the assignment {val}?"'
     hint = '"Assign the truth values into the variables in the expression. Then, starting from the highest-precedence operator, compute its value. Use the value of each operator evaluation as an input in the follow-up evaluations until you each the final result."'
-    feedback = '"Remember that should there be any negations (a unary operator), they would have the highest precedence. The only way to alter that would be by placing parenthesis around subexpressions to indicate that they should be evaluatedbefore taking the negation."'
+    feedback = '"Stick to the precedence, work iteratively. Remember that should there be any negations (a unary operator), they would have the highest precedence. The only way to alter that would be by placing parenthesis around subexpressions to indicate that they should be evaluated before taking the negation."'
     print('NewQuestion,TF,,,', file = target)
     print(f'ID,{qid()},,,', file = target)
     print(f'Title,{title},,,', file = target)

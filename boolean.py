@@ -86,7 +86,6 @@ def valor(a, b, op):
         print('Unexpected operator', op)
 
 def boolean(expr, prec='EIXOA'): # toma como entrada la expresion en forma postfix
-    prec = prec.replace(' ', '') # no spaces
     prec = '()' + prec + 'N' # add defaults
     pfe = postfix(expr, prec)
     pila = []
