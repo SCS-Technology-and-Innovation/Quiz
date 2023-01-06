@@ -44,21 +44,21 @@ def logarithm(target, pts = 1, level = 1, rows = 1, cols = 3):
     print(f'Difficulty,{level},,,', file = target)
     print('Image,,,,', file = target) # unused
     print(f'InputBox,{rows},{cols},,', file = target)
-    print(f'Answer,{pts},{corr},,', file = target) # there could be more alternatives with partial credit
+    print(f'Answer,100,{corr},,', file = target) # there could be more alternatives with partial credit
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
 
 from boolean import boolean
         
 # true/false example: evaluating a boolean expression
-debug = False
+debug = True
 def booleval(target, pts = 1, level = 1):
     bop = {'X': '\\oplus', 'A': '\\wedge', 'O': '\\vee', 'I': '\\rightarrow', 'E': '\\leftrightarrow', 'N': '\\neg'}
     cand = bop.keys() -  {'0', '1', 'N'}
     bor = sample(list(cand), 3)
     expr = 'a {:s} b {:s} c {:s} d'.format(bor[0], bor[1], bor[2])
     shuffle(bor)
-    precedence = ' '.join(bor[::-1])
+    precedence = ' '.join(bor)
     a = 1 * (random() < 0.5)
     b = 1 * (random() < 0.5)
     c = 1 * (random() < 0.5)
@@ -67,9 +67,9 @@ def booleval(target, pts = 1, level = 1):
     assigned = assigned.replace('b', str(b))
     assigned = assigned.replace('c', str(c))
     assigned = assigned.replace('d', str(d))
-    result = boolean(assigned, precedence)
+    result = boolean(assigned, precedence[::-1]) # inverted
     if debug:
-        print(f'{precedence} (inverted) for {assigned} gives {result}')        
+        print(f'{precedence} for {assigned} gives {result}')        
     for op in bop: # prepare as LaTeX
         expr = expr.replace(op, bop[op]) 
         precedence = precedence.replace(op, bop[op])
@@ -239,7 +239,7 @@ def leaves(target, count = 3, level = 2):
 
 # ordering sample question: sort the vertices by their degree in decreasing order
 
-def vertexdegree(target, count = 3, level = 3):
+def vertexdegree(target, count = 4, level = 3):
     V = None
     E = None
     deg = None

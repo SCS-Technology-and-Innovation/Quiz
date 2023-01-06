@@ -1,7 +1,7 @@
 
 # https://www.tutorialspoint.com/data_structures_algorithms/expression_parsing_using_statck.htm
 def postfix(expr, prec):
-    expr = expr.replace(' ', '')
+    expr = expr.replace(' ', '') # no spaces
     resultado = []
     pila = []
     for pedazo in expr:
@@ -86,7 +86,7 @@ def valor(a, b, op):
         print('Unexpected operator', op)
 
 def boolean(expr, prec='EIXOA'): # toma como entrada la expresion en forma postfix
-    prec = prec.replace(' ', '')
+    prec = prec.replace(' ', '') # no spaces
     prec = '()' + prec + 'N' # add defaults
     pfe = postfix(expr, prec)
     pila = []
