@@ -1,6 +1,7 @@
 
 # https://www.tutorialspoint.com/data_structures_algorithms/expression_parsing_using_statck.htm
 def postfix(expr, prec):
+    expr = expr.replace(' ', '')
     resultado = []
     pila = []
     for pedazo in expr:
@@ -31,8 +32,6 @@ def postfix(expr, prec):
 
 def valor(a, b, op):
     if op in 'AOXIE': # operador booleano binario
-        if DEBUG:
-            print(op)
         assert(a in '01' and b in '01') # acepta solamente bits
         if op == 'A': # and
             if a == '1' and b == '1': # ambos unos para que sea verdadero
@@ -87,12 +86,11 @@ def valor(a, b, op):
         print('Unexpected operator', op)
 
 def boolean(expr, prec='EIXOA'): # toma como entrada la expresion en forma postfix
+    prec = prec.replace(' ', '')
     prec = '()' + prec + 'N' # add defaults
     pfe = postfix(expr, prec)
     pila = []
     while len(pfe) > 0:
-        if DEBUG:
-            print(pila, pfe)
         if pfe[0] not in prec: # no es un operador
             pila.append(pfe.pop(0))
         else: # es un operador
@@ -108,7 +106,5 @@ def boolean(expr, prec='EIXOA'): # toma como entrada la expresion en forma postf
                 ladoDer = pila.pop(-1)
                 ladoIzq = pila.pop(-1)
                 v = valor(ladoIzq, ladoDer, operador)
-                if DEBUG:
-                    print(v)
                 pila.append(v)
     return pila[0]

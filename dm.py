@@ -14,6 +14,8 @@ def prime(n):
             return False
     return True
 
+import string
+
 def digit(value):
     if value < 10:
         return str(value)
