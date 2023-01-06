@@ -231,7 +231,7 @@ def leaves(target, count = 3, level = 2):
     shuffle(options)
     for option in options:
         pick = 1 * (option in leaves) # 1 is yes, 0 is no
-        fb = 'This is a leaf node' if pick == 1 else 'This is an internal node'
+        fb = f'{option} is a leaf node.' if pick == 1 else '{option} is an internal node.'
         print(f'Option,{pick},{option},,{fb}', file = target)
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
@@ -290,9 +290,8 @@ def vertexdegree(target, count = 3, level = 3):
     print('Scoring,RightMinusWrong,,,', file = target) # unsure what the other options are like    
     print('Image,,,,', file = target) # unused           
     for v in chosen:
-        l = ', '.join([ u for u in A[v] ])
-        nl = f'\\{{ {l} \\}}'
-        fb = f'"The neighborhood of \\( {v} \\) is \\( {nl} \\)."'
+        l = ' '.join([ u for u in A[v] ])
+        fb = f'"The neighborhood of {v} consist of {l}."'
         print(f'Item,\\({v}\\),NOT HTML,{fb},', file = target) # apparently there is an option HTML as well
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
