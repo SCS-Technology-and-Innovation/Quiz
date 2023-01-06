@@ -291,7 +291,7 @@ def vertexdegree(target, count = 3, level = 3):
     print('Image,,,,', file = target) # unused           
     for v in chosen:
         l = ', '.join([ u for u in A[v] ])
-        nl = '\\(\\{' + l + '\\}\\)'
+        nl = f'\\{{ {l} \\}}'
         fb = f'"The neighborhood of \\( {v} \\) is \\( {nl} \\)."'
         print(f'Item,\\({v}\\),NOT HTML,{fb},', file = target) # apparently there is an option HTML as well
     print(f'Hint,{hint},,,', file = target)
