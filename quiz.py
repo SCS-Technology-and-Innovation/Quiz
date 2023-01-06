@@ -279,7 +279,7 @@ def vertexdegree(target, count = 3, level = 3):
         ', '.join(['({:s}, {:s})'.format(u, v) for (u, v) in E ]) + \
         ' \\},$$ sort the following vertices in the descending order of their degree."'
     hint = 'The degree of a vertex is the number of neighbors it has.'
-    feedback = '"Drawing the graph can be helpful, but technically one could just go down the edge list and count."'
+    feedback = '"Drawing the graph can be helpful, but technically one could just go down the edge list and count. Remember to scroll all the way to the right to see all of the edges."'
     print('NewQuestion,O,,,', file = target)
     print(f'ID,{qid()},,,', file = target)
     print(f'Title,{title},,,', file = target)
