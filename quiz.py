@@ -35,7 +35,7 @@ def logarithm(target, pts = 1, level = 1, rows = 1, cols = 3):
         corr = floor(corr)
     question = 'What is the integer value of \\( \\l{:s} \log_{:d} {:d}\\r{:s} \\)?'.format(o, b, n, o)
     hint = '"Think of which power of the base is the closest to the number. Remember to use the correct rounding rule to deal with any potential decimal places. Type only the digits of your answer as your response with no additional information."'
-    feedback = 'Being able to estimate logarithms in arbitrary bases, especially without recurring to a calculator, is an important skill for a programmer.'
+    feedback = '"Being able to estimate logarithms in arbitrary bases, especially without recurring to a calculator, is an important skill for a programmer."'
     print('NewQuestion,SA,,,', file = target)
     print(f'ID,{qid()},,,', file = target)
     print(f'Title,{title},,,', file = target)

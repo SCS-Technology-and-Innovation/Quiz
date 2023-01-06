@@ -1,15 +1,15 @@
 NewQuestion,MC,,,
 ID,ElisaDemo_22,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 29 \pmod {14} \)?,,,
+QuestionText,What is the value of \( 46 \pmod {8} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(1\),,Nice work
+Option,100,\(6\),,Nice work
+Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
 Option,0,\(8\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(12\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(14\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(5\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -17,15 +17,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_23,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 49 \pmod {9} \)?,,,
+QuestionText,What is the value of \( 26 \pmod {15} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(4\),,Nice work
-Option,0,\(5\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(2\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(11\),,Nice work
+Option,0,\(13\),,Just remove all multiples of the divisor while the result remains non-negative.
 Option,0,\(0\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(12\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(10\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -33,15 +33,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_24,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 24 \pmod {10} \)?,,,
+QuestionText,What is the value of \( 36 \pmod {15} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(4\),,Nice work
-Option,0,\(10\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(6\),,Nice work
+Option,0,\(12\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
 Option,0,\(1\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(9\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(13\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -49,15 +49,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_25,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 30 \pmod {13} \)?,,,
+QuestionText,What is the value of \( 28 \pmod {15} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(4\),,Nice work
-Option,0,\(10\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(2\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(12\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(7\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(13\),,Nice work
+Option,0,\(1\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(5\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -65,15 +65,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_26,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 36 \pmod {7} \)?,,,
+QuestionText,What is the value of \( 39 \pmod {15} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(1\),,Nice work
-Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(0\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(9\),,Nice work
+Option,0,\(13\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(7\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(10\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(5\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -81,15 +81,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_27,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 25 \pmod {8} \)?,,,
+QuestionText,What is the value of \( 36 \pmod {14} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(1\),,Nice work
-Option,0,\(7\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(8\),,Nice work
 Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(5\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(1\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(7\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -97,15 +97,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_28,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 21 \pmod {7} \)?,,,
+QuestionText,What is the value of \( 33 \pmod {9} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(0\),,Nice work
-Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(1\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(6\),,Nice work
 Option,0,\(2\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(7\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(8\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(9\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -113,15 +113,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_29,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 36 \pmod {10} \)?,,,
+QuestionText,What is the value of \( 23 \pmod {9} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(6\),,Nice work
-Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(10\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(5\),,Nice work
+Option,0,\(8\),,Just remove all multiples of the divisor while the result remains non-negative.
 Option,0,\(0\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(9\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(1\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -129,15 +129,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_30,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 41 \pmod {7} \)?,,,
+QuestionText,What is the value of \( 43 \pmod {7} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(6\),,Nice work
-Option,0,\(2\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(1\),,Nice work
+Option,0,\(0\),,Just remove all multiples of the divisor while the result remains non-negative.
 Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(5\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
@@ -145,15 +145,15 @@ Feedback,"Much of cryptography is based on modular arithmetic, but it is also ha
 NewQuestion,MC,,,
 ID,ElisaDemo_31,,,
 Title,Modulo,,,
-QuestionText,What is the value of \( 33 \pmod {12} \)?,,,
+QuestionText,What is the value of \( 36 \pmod {7} \)?,,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,\(9\),,Nice work
-Option,0,\(11\),,Just remove all multiples of the divisor while the result remains non-negative.
-Option,0,\(6\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,100,\(1\),,Nice work
 Option,0,\(3\),,Just remove all multiples of the divisor while the result remains non-negative.
 Option,0,\(4\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(2\),,Just remove all multiples of the divisor while the result remains non-negative.
+Option,0,\(5\),,Just remove all multiples of the divisor while the result remains non-negative.
 Hint,"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation.",,,
 Feedback,"Much of cryptography is based on modular arithmetic, but it is also handy for programmers in general.",,,
 ,,,,
