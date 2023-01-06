@@ -51,7 +51,7 @@ def logarithm(target, pts = 1, level = 1, rows = 1, cols = 3):
 from boolean import boolean
         
 # true/false example: evaluating a boolean expression
-debug = False # the inverting of the precedence always messes with my brain
+debug = False
 def booleval(target, pts = 1, level = 1):
     bop = {'X': '\\oplus', 'A': '\\wedge', 'O': '\\vee', 'I': '\\rightarrow', 'E': '\\leftrightarrow', 'N': '\\neg'}
     cand = bop.keys() -  {'0', '1', 'N'}
@@ -81,13 +81,13 @@ def booleval(target, pts = 1, level = 1):
     hint = '"Assign the truth values into the variables in the expression. Then, starting from the highest-precedence operator, compute its value. Use the value of each operator evaluation as an input in the follow-up evaluations until you each the final result."'
     feedback = '"Remember that should there be any negations (a unary operator), they would have the highest precedence. The only way to alter that would be by placing parenthesis around subexpressions to indicate that they should be evaluatedbefore taking the negation."'
     print('NewQuestion,TF,,,', file = target)
-    print(f'ID,{qid},,,', file = target)
+    print(f'ID,{qid()},,,', file = target)
     print(f'Title,{title},,,', file = target)
     print(f'QuestionText,{question},,,', file = target)
     print(f'Pts,{pts},,,', file = target)
     print(f'Difficulty,{level},,,', file = target)
     print('Image,,,,', file = target) # unused
-    if result: # evaluated to true
+    if result == '1': # evaluated to true
         print('TRUE,100,Your result is correct,,', file = target)
         print('FALSE,0,Your result is incorrect,,', file = target)
     else:
