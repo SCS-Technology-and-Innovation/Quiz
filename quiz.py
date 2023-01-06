@@ -171,9 +171,7 @@ def modulo(target, pts = 1, level = 1):
     options = { corr } 
     while len(options) < 5:
         options.add(randint(0, b))
-    options.remove(corr)
     options = list(options)
-    shuffle(options)
     title = 'Modulo'
     question = f'What is the value of \\( {a} \pmod {{{b}}} \\)?'
     hint = '"Recall that the modulo operator refers to the residue of an integer division. In programming, the percent sign is often used to signify this operation."'
@@ -184,11 +182,14 @@ def modulo(target, pts = 1, level = 1):
     print(f'QuestionText,{question},,,', file = target)
     print(f'Pts,{pts},,,', file = target)
     print(f'Difficulty,{level},,,', file = target)
-    print('Image,,,,', file = target) # unused       
-    print(f'Option,100,\\({corr}\\),,Nice work', file = target)
-    for other in options:
-        # partial credit could also be given by indicating a value > 0 but < 100        
-        print(f'Option,0,\\({other}\\),,Just remove all multiples of the divisor while the result remains non-negative.',
+    print('Image,,,,', file = target) # unused
+    shuffle(options)
+    for o in options:
+        if o == corr:
+            print(f'Option,100,\\({o}\\),,Nice work.', file = target)
+        else:
+            # partial credit could also be given by indicating a value > 0 but < 100        
+            print(f'Option,0,\\({o}\\),,Just remove all multiples of the divisor while the result remains non-negative.',
               file = target)
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
