@@ -51,35 +51,35 @@ def logarithm(target, pts = 1, level = 1, rows = 1, cols = 3):
 from boolean import boolean
         
 # true/false example: evaluating a boolean expression
+debug = False # the inverting of the precedence always messes with my brain
 def booleval(target, pts = 1, level = 1):
     bop = {'X': '\\oplus', 'A': '\\wedge', 'O': '\\vee', 'I': '\\rightarrow', 'E': '\\leftrightarrow', 'N': '\\neg'}
     cand = bop.keys() -  {'0', '1', 'N'}
     bor = sample(list(cand), 3)
     expr = 'a {:s} b {:s} c {:s} d'.format(bor[0], bor[1], bor[2])
     shuffle(bor)
-    sp = ' '.join(bor) 
-    q = expr
-    lp = sp[::-1] # reverse
-    prec = lp
-    for op in bop: # prepare as LaTeX
-        q = q.replace(op, bop[op]) 
-        lp = lp.replace(op, bop[op])
+    precedence = ' '.join(bor[::-1])
     a = 1 * (random() < 0.5)
     b = 1 * (random() < 0.5)
     c = 1 * (random() < 0.5)
     d = 1 * (random() < 0.5)
+    assigned = expr.replace('a', str(a))
+    assigned = assigned.replace('b', str(b))
+    assigned = assigned.replace('c', str(c))
+    assigned = assigned.replace('d', str(d))
+    result = boolean(assigned, precedence)
+    if debug:
+        print(f'{precedence} (inverted) for {assigned} gives {result}')        
+    for op in bop: # prepare as LaTeX
+        expr = expr.replace(op, bop[op]) 
+        precedence = precedence.replace(op, bop[op])
     val = f'\\(a = {a}, b = {b}, c = {c}, d = {d}\\)'
     title = 'Boolean logic'
-    question = f'"What is the value of \\( {q} \\)'
-    question += f' with precedence (from highest to lowest) \\( {lp} \\)'
+    question = f'"What is the value of \\( {expr} \\)'
+    question += f' with precedence (from highest to lowest) \\( {precedence} \\)'
     question += f' and the assignment {val}?"'
     hint = '"Assign the truth values into the variables in the expression. Then, starting from the highest-precedence operator, compute its value. Use the value of each operator evaluation as an input in the follow-up evaluations until you each the final result."'
     feedback = '"Remember that should there be any negations (a unary operator), they would have the highest precedence. The only way to alter that would be by placing parenthesis around subexpressions to indicate that they should be evaluatedbefore taking the negation."'
-    expr = expr.replace('a', str(a))
-    expr = expr.replace('b', str(b))
-    expr = expr.replace('c', str(c))
-    expr = expr.replace('d', str(d))
-    result = boolean(expr, prec)    
     print('NewQuestion,TF,,,', file = target)
     print(f'ID,{qid},,,', file = target)
     print(f'Title,{title},,,', file = target)
