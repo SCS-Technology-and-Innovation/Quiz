@@ -217,7 +217,7 @@ def leaves(target, count = 3, level = 2):
         ', '.join([ str(k) for k in keys ]) + \
         ' ] and identify which of the following keys are leaves after all keys have been inserted."'
     hint = '"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf."'
-    feedback = 'When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.'
+    feedback = '"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task."'
     pts = count * 2    
     print('NewQuestion,MS,,,', file = target)
     print(f'ID,{qid()},,,', file = target)
