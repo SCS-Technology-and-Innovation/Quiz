@@ -108,38 +108,41 @@ def integers(target):
     # small base to decimal
     b = randint(2, 9)
     n = None
+    k = randint(3, 5)
     while n is None:
-        n = ''.join([ digit(randint(0, b - 1)) for x in range(3) ]) # four digits
+        n = ''.join([ digit(randint(0, b - 1)) for x in range(k) ]) 
         if len(n.replace('0', '')) == 0:
             n = None    
     used.add(n)
-    sb = '\\( {:s}_{:d} \\)'.format(n, b)
+    sb = '\\( {:s}_{{{:d}}} \\)'.format(n, b)
     v = int(n, b)
-    sbc = f'\\( {v} \\)'
+    sbc = f'\\( {v}_{{10}} \\)'
     # large base to decimal
-    b = randint(11, 22)    
+    b = randint(11, 22)
+    k = randint(2, 4)
     while n is None or n in used:
-        n = ''.join([ digit(randint(0, b - 1)) for x in range(2) ]) # three digits
+        n = ''.join([ digit(randint(0, b - 1)) for x in range(k) ]) 
         if len(n.replace('0', '')) == 0:
             n = None
     used.add(n)
     lb = '\\( {:s}_{{{:d}}}\\)'.format(n, b)
     v = int(n, b)
-    lbc = f'\\( {v} \\)'
+    lbc = f'\\( {v}_{{10}} \\)'
     # binary to octal
+    k = randint(3, 6)
     while n in used:
-        binary = '1{:s}'.format(''.join([str(randint(0, 1)) for x in range(5)]))
+        binary = '1{:s}'.format(''.join([str(randint(0, 1)) for x in range(k)]))
         n = int(binary, 2)
     used.add(n)
     boctal = f'\\( {oct(n)[2:]}_{{8}} \\)'
-    sbo = '\\( {:s}_2 \\)'.format(binary)
+    sbo = '\\( {:s}_{{2}} \\)'.format(binary)
     # octal to hexadecimal
     while n is None or n in used:
         n = ''.join([str(randint(0, 7)) for i in range(3)]).lstrip('0') # three digits
         if len(n.replace('0', '')) == 0:
             n = None        
     used.add(n)
-    hos = f'\\( {n}_8 \\)'
+    hos = f'\\( {n}_{{8}} \\)'
     v = hex(int(n, 8))[2:]
     hhs = f'\\( {v}_{{16}} \\)'
     print('NewQuestion,M,,,', file = target)
@@ -156,14 +159,18 @@ def integers(target):
     print(f'Difficulty,{level},,,', file = target)
     print('Image,,,,', file = target) # unused    
     print('Scoring,EquallyWeighted,,,', file = target) # unsure what the other options would be
-    print(f'Choice,1,{sb},,', file = target)
-    print(f'Choice,2,{lb},,', file = target)
-    print(f'Choice,3,{sbo},,', file = target)
-    print(f'Choice,4,{hos},,', file = target)
-    print(f'Match,1,{sbc},,', file = target)
-    print(f'Match,2,{lbc},,', file = target)
-    print(f'Match,3,{boctal},,', file = target)
-    print(f'Match,4,{hhs},,', file = target)
+    pairs = [ ( sb, sbc ),
+              ( lb, lbc ),
+              ( sbo, boctal ) ,
+              (hos, hhs ) ]
+    shuffle(pairs)
+    l = 1
+    for x, y in pairs:
+        if random() < 0.5:
+            x, y = y, x
+        print(f'Choice,{l},{x},,', file = target)
+        print(f'Match,{l},{y},,', file = target)
+        l += 1
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
 
