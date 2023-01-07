@@ -209,19 +209,16 @@ from btree import Tree
     
 # multiselect sample question: build a binary tree and pick the leaves
 def leaves(target, count = 3, level = 2):
-    T = None
-    leaves = None
-    internal = None
-    while True:
-        T = Tree()
-        keys = sample([i for i in range(1, 100)], randint(12, 18))
-        for key in keys:
-            T.insert(key)
-        T.update()
-        leaves = T.leaves()
-        internal = set(keys) - leaves
-        if min(len(leaves), len(internal)) >= count:
-            break
+    T = Tree()
+    low = 2 * count + 2
+    high = low + 4
+    amount = randint(low, high)
+    keys = sample( [ i for i in range(1, 100) ], amount)
+    for key in keys:
+        T.insert(key)
+    T.update()
+    leaves = T.leaves()
+    internal = set(keys) - leaves
     leaves = list(leaves)
     internal = list(internal)
     title = 'Binary trees'
@@ -239,11 +236,19 @@ def leaves(target, count = 3, level = 2):
     print(f'Difficulty,{level},,,', file = target)
     print('Image,,,,', file = target) # unused           
     print('Scoring,RightAnswers,,,', file = target) # unsure what the other options are like
-    options = sample(leaves, count) + sample(internal, count)
+    total = 2 * count
+    first = None
+    second = None
+    while True:
+        first = randint(1, total - 1)
+        second = total - first        
+        if first <= len(leaves) and second <= len(internal):
+            break
+    options = sample(leaves, first) + sample(internal, second)
     shuffle(options)
     for option in options:
         pick = 1 * (option in leaves) # 1 is yes, 0 is no
-        fb = f'{option} is a leaf node.' if pick == 1 else '{option} is an internal node.'
+        fb = f'{option} is a leaf node. ' if pick == 1 else f'{option} is an internal node. '
         print(f'Option,{pick},{option},,{fb}', file = target)
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
@@ -303,7 +308,7 @@ def vertexdegree(target, count = 4, level = 3):
     print('Image,,,,', file = target) # unused           
     for v in chosen:
         l = ' '.join([ u for u in A[v] ])
-        fb = f'"The neighborhood of {v} consist of {l}."'
+        fb = f'"The neighborhood of {v} consist of {l}. "'
         print(f'Item,\\({v}\\),NOT HTML,{fb},', file = target) # apparently there is an option HTML as well
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
