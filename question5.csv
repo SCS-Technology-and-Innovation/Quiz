@@ -1,17 +1,17 @@
 NewQuestion,MS,,,
 ID,ElisaDemo_42,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 91, 42, 88, 64, 12, 55, 51, 85, 81 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 64, 80, 7, 71, 60, 58, 24, 12, 53 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,0,85,,85 is an internal node. 
-Option,0,55,,55 is an internal node. 
-Option,0,42,,42 is an internal node. 
-Option,1,51,,51 is a leaf node. 
+Option,1,12,,12 is a leaf node. 
+Option,1,53,,53 is a leaf node. 
 Option,0,64,,64 is an internal node. 
-Option,0,91,,91 is an internal node. 
+Option,0,24,,24 is an internal node. 
+Option,0,60,,60 is an internal node. 
+Option,0,7,,7 is an internal node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -19,17 +19,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_43,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 6, 88, 31, 39, 56, 93, 62, 46, 99, 44, 5, 78 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 44, 69, 33, 78, 36, 60, 75, 92, 19, 83 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,0,88,,88 is an internal node. 
-Option,0,39,,39 is an internal node. 
-Option,0,56,,56 is an internal node. 
-Option,1,44,,44 is a leaf node. 
-Option,0,93,,93 is an internal node. 
-Option,0,31,,31 is an internal node. 
+Option,1,36,,36 is a leaf node. 
+Option,1,60,,60 is a leaf node. 
+Option,1,19,,19 is a leaf node. 
+Option,1,75,,75 is a leaf node. 
+Option,0,69,,69 is an internal node. 
+Option,1,83,,83 is a leaf node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -37,17 +37,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_44,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 53, 13, 66, 57, 16, 52, 88, 47, 56, 60, 24 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 17, 8, 25, 57, 3, 64, 76, 12, 70 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,1,88,,88 is a leaf node. 
-Option,0,66,,66 is an internal node. 
-Option,1,24,,24 is a leaf node. 
-Option,1,60,,60 is a leaf node. 
-Option,1,56,,56 is a leaf node. 
-Option,0,47,,47 is an internal node. 
+Option,1,70,,70 is a leaf node. 
+Option,0,57,,57 is an internal node. 
+Option,0,25,,25 is an internal node. 
+Option,0,64,,64 is an internal node. 
+Option,0,17,,17 is an internal node. 
+Option,0,8,,8 is an internal node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -55,17 +55,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_45,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 66, 1, 64, 28, 91, 25, 12, 26, 34, 98, 70 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 80, 59, 27, 65, 22, 85, 32, 19 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,0,91,,91 is an internal node. 
-Option,1,26,,26 is a leaf node. 
-Option,1,98,,98 is a leaf node. 
-Option,1,12,,12 is a leaf node. 
-Option,0,28,,28 is an internal node. 
-Option,0,64,,64 is an internal node. 
+Option,0,59,,59 is an internal node. 
+Option,1,19,,19 is a leaf node. 
+Option,1,85,,85 is a leaf node. 
+Option,1,65,,65 is a leaf node. 
+Option,0,80,,80 is an internal node. 
+Option,1,32,,32 is a leaf node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -73,17 +73,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_46,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 1, 28, 15, 65, 97, 80, 51, 61 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 32, 54, 27, 61, 60, 95, 31, 57, 24, 12 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,1,61,,61 is a leaf node. 
-Option,0,1,,1 is an internal node. 
-Option,1,15,,15 is a leaf node. 
-Option,0,51,,51 is an internal node. 
-Option,0,97,,97 is an internal node. 
-Option,0,65,,65 is an internal node. 
+Option,0,24,,24 is an internal node. 
+Option,0,54,,54 is an internal node. 
+Option,0,61,,61 is an internal node. 
+Option,1,31,,31 is a leaf node. 
+Option,1,57,,57 is a leaf node. 
+Option,0,27,,27 is an internal node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -91,17 +91,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_47,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 18, 68, 29, 31, 54, 92, 89, 55, 75, 4, 51, 27 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 47, 6, 79, 29, 19, 35, 83, 74, 28 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,0,18,,18 is an internal node. 
-Option,0,92,,92 is an internal node. 
+Option,1,35,,35 is a leaf node. 
+Option,0,19,,19 is an internal node. 
 Option,0,29,,29 is an internal node. 
-Option,1,51,,51 is a leaf node. 
-Option,0,54,,54 is an internal node. 
-Option,1,55,,55 is a leaf node. 
+Option,1,74,,74 is a leaf node. 
+Option,0,6,,6 is an internal node. 
+Option,0,79,,79 is an internal node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -109,17 +109,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_48,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 7, 69, 73, 94, 5, 96, 86, 25 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 50, 95, 98, 59, 62, 53, 33, 63, 13 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,1,86,,86 is a leaf node. 
-Option,0,94,,94 is an internal node. 
-Option,1,25,,25 is a leaf node. 
-Option,1,96,,96 is a leaf node. 
-Option,0,69,,69 is an internal node. 
-Option,0,73,,73 is an internal node. 
+Option,0,62,,62 is an internal node. 
+Option,0,50,,50 is an internal node. 
+Option,1,63,,63 is a leaf node. 
+Option,0,33,,33 is an internal node. 
+Option,0,95,,95 is an internal node. 
+Option,0,59,,59 is an internal node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -127,17 +127,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_49,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 37, 58, 78, 61, 22, 72, 9, 36, 56, 25, 2, 70 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 71, 76, 19, 90, 88, 24, 95, 67, 28, 32, 8, 27 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,0,61,,61 is an internal node. 
-Option,1,25,,25 is a leaf node. 
-Option,0,9,,9 is an internal node. 
-Option,1,2,,2 is a leaf node. 
-Option,1,56,,56 is a leaf node. 
-Option,1,70,,70 is a leaf node. 
+Option,0,76,,76 is an internal node. 
+Option,0,71,,71 is an internal node. 
+Option,0,67,,67 is an internal node. 
+Option,1,95,,95 is a leaf node. 
+Option,1,32,,32 is a leaf node. 
+Option,0,24,,24 is an internal node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -145,17 +145,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_50,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 31, 82, 32, 86, 39, 97, 72, 83, 87 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 69, 1, 13, 64, 91, 98, 74, 25, 33, 59 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,0,32,,32 is an internal node. 
-Option,0,31,,31 is an internal node. 
-Option,0,97,,97 is an internal node. 
-Option,1,83,,83 is a leaf node. 
-Option,0,82,,82 is an internal node. 
-Option,1,87,,87 is a leaf node. 
+Option,0,25,,25 is an internal node. 
+Option,1,98,,98 is a leaf node. 
+Option,0,1,,1 is an internal node. 
+Option,0,64,,64 is an internal node. 
+Option,0,13,,13 is an internal node. 
+Option,0,91,,91 is an internal node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
@@ -163,17 +163,17 @@ Feedback,"When you are systematic and disciplined about always starting at the r
 NewQuestion,MS,,,
 ID,ElisaDemo_51,,,
 Title,Binary trees,,,
-QuestionText,"Build a binary tree by inserting the key sequence [ 40, 39, 29, 25, 61, 50, 62, 53, 67, 87, 85 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
+QuestionText,"Build a binary tree by inserting the key sequence [ 44, 13, 24, 52, 62, 80, 58, 25, 10 ] and identify which of the following keys are leaves after all keys have been inserted.",,,
 Pts,6,,,
 Difficulty,2,,,
 Image,,,,
 Scoring,RightAnswers,,,
-Option,1,53,,53 is a leaf node. 
-Option,0,29,,29 is an internal node. 
-Option,1,85,,85 is a leaf node. 
-Option,0,39,,39 is an internal node. 
+Option,1,58,,58 is a leaf node. 
+Option,0,52,,52 is an internal node. 
+Option,0,24,,24 is an internal node. 
 Option,1,25,,25 is a leaf node. 
-Option,0,50,,50 is an internal node. 
+Option,1,10,,10 is a leaf node. 
+Option,1,80,,80 is a leaf node. 
 Hint,"The first key becomes the root. Then, recursively, smaller values go into the left branch and larger values into the right. Any node that has neither a left nor a right branch underneath it is a leaf.",,,
 Feedback,"When you are systematic and disciplined about always starting at the root and following the rules, this is an easy task.",,,
 ,,,,
