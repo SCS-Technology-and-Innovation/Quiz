@@ -314,13 +314,62 @@ def vertexdegree(target, count = 4, level = 3):
     print(f'Feedback,{feedback},,,', file = target)
 
 
+# regression, for now as a multiple choice question
+from casestudy import select
+url = "https://scs-technology-and-innovation.github.io/casestudy/demo/select.html"
+def regression(target, pts = 1, level = 1): 
+    n = level * 10 # number of data points
+    prec = 1 + level # precision in decimal places
+    fs = f'{{:.{prec}f}}' # format string    
+    (a, b), s = select(n, prec)
+    corr = f'"Slope {a}, intercept {b}"'
+    inverted = f'"Slope {b}, intercept {a}"'
+    options = { corr, inverted }
+    opt = 3 * level * 2
+    low = level / 2
+    high = 2 * level
+    na = float(a)
+    nb = float(b)
+    while len(options) < opt:
+        fa = na + (high - low) * random() + low
+        fb = nb + (high - low) * random() + low
+        fas = fs.format(fa)
+        fbs = fs.format(fb)
+        fake = f'"Slope {fas}, intercept {fbs}"'
+        invfake = f'"Slope {fbs}, intercept {fas}"'
+        options.add(fake)
+        options.add(invfake)
+    options = list(options)
+    title = 'Linear regression'
+    question = f'"Fit a linear model into <a href=\'{url}?s={s}&n={n}\' target=\'_blank\'>casestudy{s}.csv</a>. Select the correct slope-intercept pair."'
+    hint = '"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it."'
+    feedback = '"The slope is listed as the first (and only) coefficient of the fitted model."'
+    print('NewQuestion,MC,,,', file = target)
+    print(f'ID,{qid()},,,', file = target)
+    print(f'Title,{title},,,', file = target)
+    print(f'QuestionText,{question},HTML,,', file = target) 
+    print(f'Pts,{pts},,,', file = target)
+    print(f'Difficulty,{level},,,', file = target)
+    print('Image,,,,', file = target) # unused
+    shuffle(options)
+    for o in options:
+        if o == corr:
+            print(f'Option,100,{o},,Nicely done.', file = target)
+        else:
+            # partial credit could also be given by indicating a value > 0 but < 100        
+            print(f'Option,0,{o},,"Think carefully which value is which. Careful with the rounding, too."',
+              file = target)
+    print(f'Hint,{hint},,,', file = target)
+    print(f'Feedback,{feedback},,,', file = target)
+    
 kinds = [
     logarithm, # 1
     booleval, # 2 
     integers, # 3
     modulo, # 4
     leaves, # 5
-    vertexdegree # 6
+    vertexdegree, # 6
+    regression # 7 (would ideally be a FIB question, but there seems to be no template yet
 ]
     
 def generate(count):

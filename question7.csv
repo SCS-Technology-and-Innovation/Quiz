@@ -1,16 +1,16 @@
 NewQuestion,MC,,,
 ID,ElisaDemo_62,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=191&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=493&n=10' target='_blank'>casestudy493.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 2.82, intercept 11.11",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.11, intercept 2.82",,"Think carefully which value is which. Careful with the rounding, too."
 Option,0,"Slope 9.92, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.92, intercept 11.52",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.24, intercept 11.66",,"Think carefully which value is which. Careful with the rounding, too."
 Option,100,"Slope 1.23, intercept 9.92",,Nicely done.
-Option,0,"Slope 2.00, intercept 11.88",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.88, intercept 2.00",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.52, intercept 2.92",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.66, intercept 2.24",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -18,16 +18,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_63,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=337&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=770&n=10' target='_blank'>casestudy770.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 9.91, intercept 1.24",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.15, intercept 1.96",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 10.66, intercept 2.05",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 1.96, intercept 11.15",,"Think carefully which value is which. Careful with the rounding, too."
-Option,100,"Slope 1.24, intercept 9.91",,Nicely done.
-Option,0,"Slope 2.05, intercept 10.66",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.57, intercept 2.06",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.06, intercept 10.57",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.24, intercept 9.84",,Nicely done.
+Option,0,"Slope 11.23, intercept 3.11",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 9.84, intercept 1.24",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 3.11, intercept 11.23",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -35,16 +35,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_64,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=662&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=246&n=10' target='_blank'>casestudy246.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 9.88, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.14, intercept 1.83",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.44, intercept 2.06",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 1.83, intercept 11.14",,"Think carefully which value is which. Careful with the rounding, too."
-Option,100,"Slope 1.23, intercept 9.88",,Nicely done.
-Option,0,"Slope 2.06, intercept 11.44",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.85, intercept 11.62",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.24, intercept 9.84",,Nicely done.
+Option,0,"Slope 9.84, intercept 1.24",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.62, intercept 2.85",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 1.75, intercept 10.81",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.81, intercept 1.75",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -52,16 +52,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_65,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=856&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=826&n=10' target='_blank'>casestudy826.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 1.98, intercept 11.66",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 9.89, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.66, intercept 1.98",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.72, intercept 1.94",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 1.94, intercept 11.72",,"Think carefully which value is which. Careful with the rounding, too."
-Option,100,"Slope 1.23, intercept 9.89",,Nicely done.
+Option,0,"Slope 11.66, intercept 2.62",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.77, intercept 11.10",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.10, intercept 2.77",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.62, intercept 11.66",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 9.90, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.23, intercept 9.90",,Nicely done.
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -69,16 +69,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_66,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=98&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=573&n=10' target='_blank'>casestudy573.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,"Slope 1.24, intercept 9.92",,Nicely done.
-Option,0,"Slope 11.51, intercept 2.46",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 9.92, intercept 1.24",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.71, intercept 2.27",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 2.46, intercept 11.51",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 2.27, intercept 11.71",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.23, intercept 9.92",,Nicely done.
+Option,0,"Slope 2.90, intercept 11.06",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.98, intercept 2.47",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.06, intercept 2.90",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.47, intercept 10.98",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 9.92, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -86,16 +86,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_67,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=37&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=241&n=10' target='_blank'>casestudy241.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,100,"Slope 1.23, intercept 9.99",,Nicely done.
-Option,0,"Slope 10.57, intercept 2.51",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 9.99, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.27, intercept 2.82",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 2.82, intercept 11.27",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 2.51, intercept 10.57",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.24, intercept 9.82",,Nicely done.
+Option,0,"Slope 9.82, intercept 1.24",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.74, intercept 2.92",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.64, intercept 10.54",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.92, intercept 10.74",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.54, intercept 2.64",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -103,16 +103,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_68,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=104&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=273&n=10' target='_blank'>casestudy273.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 2.17, intercept 11.57",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 9.87, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.57, intercept 2.17",,"Think carefully which value is which. Careful with the rounding, too."
-Option,100,"Slope 1.23, intercept 9.87",,Nicely done.
-Option,0,"Slope 2.18, intercept 11.35",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.35, intercept 2.18",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.84, intercept 11.43",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.60, intercept 2.90",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.90, intercept 10.60",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.43, intercept 2.84",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.23, intercept 9.78",,Nicely done.
+Option,0,"Slope 9.78, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -120,16 +120,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_69,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=1042&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=608&n=10' target='_blank'>casestudy608.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 11.42, intercept 2.05",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 9.78, intercept 1.24",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 1.88, intercept 11.33",,"Think carefully which value is which. Careful with the rounding, too."
-Option,100,"Slope 1.24, intercept 9.78",,Nicely done.
-Option,0,"Slope 2.05, intercept 11.42",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.33, intercept 1.88",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 9.97, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.18, intercept 11.55",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.43, intercept 3.21",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 11.55, intercept 2.18",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 3.21, intercept 11.43",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.23, intercept 9.97",,Nicely done.
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -137,16 +137,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_70,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=940&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=510&n=10' target='_blank'>casestudy510.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 1.86, intercept 10.74",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 10.74, intercept 1.86",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 10.74, intercept 2.67",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 9.83, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 2.67, intercept 10.74",,"Think carefully which value is which. Careful with the rounding, too."
-Option,100,"Slope 1.23, intercept 9.83",,Nicely done.
+Option,0,"Slope 11.03, intercept 2.47",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.64, intercept 2.95",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.23, intercept 9.95",,Nicely done.
+Option,0,"Slope 2.47, intercept 11.03",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.95, intercept 10.64",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 9.95, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,
@@ -154,16 +154,16 @@ Feedback,"The slope is listed as the first (and only) coefficient of the fitted 
 NewQuestion,MC,,,
 ID,ElisaDemo_71,,,
 Title,Linear regression,,,
-QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=450&n=10' target='_blank'>casestudy.csv</a>. Select the correct slope-intercept pair.",HTML,,
+QuestionText,"Fit a linear model into <a href='https://scs-technology-and-innovation.github.io/casestudy/demo/select.html?s=778&n=10' target='_blank'>casestudy778.csv</a>. Select the correct slope-intercept pair.",HTML,,
 Pts,1,,,
 Difficulty,1,,,
 Image,,,,
-Option,0,"Slope 2.10, intercept 11.97",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 11.97, intercept 2.10",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 10.56, intercept 2.90",,"Think carefully which value is which. Careful with the rounding, too."
-Option,0,"Slope 10.00, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
-Option,100,"Slope 1.23, intercept 10.00",,Nicely done.
-Option,0,"Slope 2.90, intercept 10.56",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 10.46, intercept 1.88",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 9.84, intercept 1.23",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 1.88, intercept 10.46",,"Think carefully which value is which. Careful with the rounding, too."
+Option,0,"Slope 2.60, intercept 10.73",,"Think carefully which value is which. Careful with the rounding, too."
+Option,100,"Slope 1.23, intercept 9.84",,Nicely done.
+Option,0,"Slope 10.73, intercept 2.60",,"Think carefully which value is which. Careful with the rounding, too."
 Hint,"Use LinearRegression from scikit-learn. The data file is automatically downloaded whenclicking the link in the question. Check your download folder if you cannot find it.",,,
 Feedback,"The slope is listed as the first (and only) coefficient of the fitted model.",,,
 ,,,,

@@ -20,6 +20,7 @@ b = 9.876
 nMean = 0
 nSigma = 0.2
 noise = np.random.normal(nMean, nSigma, count)
+print('x,y') # header
 for i in range(count):
     x = randint(xlow, xhigh)
     y = a * x + b + noise[i]
