@@ -138,10 +138,11 @@ def integers(target):
     sbo = '\\( {:s}_{{2}} \\)'.format(binary)
     # octal to hexadecimal
     while n is None or n in used:
-        n = ''.join([str(randint(0, 7)) for i in range(3)]).lstrip('0') # three digits
+        # three digits
+        n = ''.join([str(randint(0, 7)) for i in range(3)]).lstrip('0') 
         if len(n.replace('0', '')) == 0:
             n = None        
-    used.add(n)
+    used.add(int(n, 8))
     hos = f'\\( {n}_{{8}} \\)'
     v = hex(int(n, 8))[2:]
     hhs = f'\\( {v}_{{16}} \\)'
