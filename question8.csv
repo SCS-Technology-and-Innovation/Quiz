@@ -1,0 +1,160 @@
+NewQuestion,MC,,,
+ID,ElisaDemo_72,,,
+Title,Computational optimization problems,,,
+QuestionText,What is the objective function of the vertex cover problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,100,\(minimize the cardinality\),,Nice work.
+Option,0,\(minimize total capacity\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(maximize total value\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(that the divisor be the largest possible\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(maximize cardinality\),,"The CLRS textbook is great study resource for this topic."
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_73,,,
+Title,Computational optimization problems,,,
+QuestionText,What is the computational complexity of the independent set problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,100,\(NP-complete\),,Nice work.
+Option,0,\(PSPACE-complete\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(unknown\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(pseudopolynomial\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(polynomial\),,"The CLRS textbook is great study resource for this topic."
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_74,,,
+Title,Computational optimization problems,,,
+QuestionText,What are the restrictions of the maximum flow problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(that none of the included vertices be neighbors\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(that each vertex be covered at least once\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(separate the source from the target, respecting the capacities\),,Nice work.
+Option,0,\(that no pair of neighbors share a color\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(that each edge be covered at least once\),,"The CLRS textbook is great study resource for this topic."
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_75,,,
+Title,Computational optimization problems,,,
+QuestionText,What is the objective function of the greatest common divisor problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(maximize cardinality\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(minimize total cost\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(that the divisor be the largest possible\),,Nice work.
+Option,0,\(maximize the coverage\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(maximize total flow\),,"The CLRS textbook is great study resource for this topic."
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_76,,,
+Title,Computational optimization problems,,,
+QuestionText,What is the goal of the greatest common divisor problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(which edges to include\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(which vertices to include\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(the selection of objects to include\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(how to transform a string into another\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(its numeric value\),,Nice work.
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_77,,,
+Title,Computational optimization problems,,,
+QuestionText,What are the restrictions of the vertex cover problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(not to exceed the weight limit\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(that each edge be covered at least once\),,Nice work.
+Option,0,\(expand without introducing cycles\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(that no pair of neighbors share a color\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(none\),,"The CLRS textbook is great study resource for this topic."
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_78,,,
+Title,Computational optimization problems,,,
+QuestionText,What is the computational complexity of the edit distance problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(unknown\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(NP-complete\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(PSPACE-complete\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(pseudopolynomial\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(polynomial\),,Nice work.
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_79,,,
+Title,Computational optimization problems,,,
+QuestionText,What is the goal of the vertex cover problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(its numeric value\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(to assign a color to each vertex\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(the selection of objects to include\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(in which order to make the visits\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(which vertices to include\),,Nice work.
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_80,,,
+Title,Computational optimization problems,,,
+QuestionText,What are the restrictions of the edge cover problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(that all included vertices be neighbors\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(expand without introducing cycles\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(that each vertex be covered at least once\),,Nice work.
+Option,0,\(that no pair of neighbors share a color\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(not to repeat vertices\),,"The CLRS textbook is great study resource for this topic."
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,
+NewQuestion,MC,,,
+ID,ElisaDemo_81,,,
+Title,Computational optimization problems,,,
+QuestionText,What is the goal of the edge cover problem?,,,
+Pts,1,,,
+Difficulty,2,,,
+Image,,,,
+Option,0,\(which vertices to include\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(how to transform a string into another\),,"The CLRS textbook is great study resource for this topic."
+Option,0,\(in which order to make the visits\),,"The CLRS textbook is great study resource for this topic."
+Option,100,\(which edges to include\),,Nice work.
+Option,0,\(to assign a color to each vertex\),,"The CLRS textbook is great study resource for this topic."
+Hint,"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task.",,,
+Feedback,"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details.",,,
+,,,,
+,,,,

@@ -9,10 +9,15 @@ from copy import deepcopy
 from hashlib import md5
 import string
 
+# 0 = Spanish
+# 1 = English
+# localization options kept in case we add French later
+lan = 1 # default 
+
 algs = {'FW': [1, 2, 3, 4],
         'FF': [5, 2, 6, 7],
-        'Prim': [8, 9, 10, 11],
-        'Kruskal': [8, 12, 10, 11],
+        'Pr': [8, 9, 10, 11],
+        'Kr': [8, 12, 10, 11],
         'DFS': [13, 14, 3, 16],
         'BFS': [17, 14, 3, 17], 
         'of': [18, 19, 20, 21],
@@ -44,10 +49,10 @@ algsIdx = {
         '¿Cuál es la complejidad asintótica de peor caso del algoritmo',
         '¿Qué se le da como entrada al algoritmo',
         '¿Qué produce como salida el algoritmo'],
-    1: ['The goal of',
-        'The worst-case asymptotic complexity of',
-        'The input for',
-        'The output of']
+    1: ['What is the the goal of',
+        'What is the worst-case asymptotic complexity of',
+        'What is the input for',
+        'What is the output of']
 }
 
 algsOp = {
@@ -122,6 +127,10 @@ algNames = {
     1: {
         'FW': 'Floyd-Warshall algorithm',
         'FF': 'Ford-Fulkerson algorithm',
+        'Kr': 'Kruskal\'s algorithm',
+        'BFS':'breadth-first search',
+        'DFS':'depth-first search',
+        'Pr': 'Prim\'s algorithm', 
         'of': 'merge sort algorithm',
         'os': 'selection sort algorithm',
         'bb': 'binary search',
@@ -238,3 +247,39 @@ probNames = {
         '2color': '2-coloring problem',
         'kcolor': '$k$-coloring problem'}
 }
+
+def mc_problem(level = 1):
+    pr = sample(list(probs.keys()), 1)[0]
+    pi = randint(0, len(probIdx[lan]) - 1)
+    available = { v[pi] for v in probs.values() }
+    if pi == 0:
+        available |= { 32, 33 }
+    count = 2 * level + 1
+    options = sample(list(available), count)
+    corr = probs[pr][pi]        
+    if corr not in options:
+        options.remove(sample(options, 1)[0])
+        options.append(corr)
+    question = '{:s} {:s}?'.format(probIdx[lan][pi],
+                                   probNames[lan].get(pr, pr))
+    options = [ (probOp[lan][o], o == corr) for o in options ]
+    return (question, options)
+
+def mc_algorithm(level = 1):
+    al = sample(list(algs.keys()), 1)[0] 
+    ai = randint(0, len(algsIdx[lan]) - 1)
+    count = 2 * level + 1
+    options = sample([ v[ai] for v in algs.values() ], count)
+    corr = algs[al][ai]        
+    if corr not in options:
+        options.remove(sample(list(options), 1)[0])
+        options.append(corr)
+    shuffle(options)
+    question = '{:s} {:s}?'.format(algsIdx[lan][ai],
+                                   algNames[lan].get(al, al))
+    options = [ (algsOp[lan][o], o == corr) for o in options ]
+    return (question, options)
+
+if __name__ == '__main__':
+    print(mc_problem())
+    print(mc_algorithm())

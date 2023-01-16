@@ -366,7 +366,56 @@ def regression(target, pts = 1, level = 1):
               file = target)
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
+
     
+from algs import mc_problem, mc_algorithm
+    
+def compprob(target, level = 2, pts = 1):
+    (question, options) = mc_problem(level)
+    title = 'Computational optimization problems'
+    hint = '"Think of the problem definition to identify its objective function and any potential restrictions. Remember that the computational complexity of a problem is not dependent of a specific algorithm but instead characterizes the difficulty inherent in the task."'
+    feedback = '"These are not questions that are easy to memorize, but once you understand the problem formulation, it becomes easier to reconstruct the specific details."'
+    print('NewQuestion,MC,,,', file = target)
+    print(f'ID,{qid()},,,', file = target)
+    print(f'Title,{title},,,', file = target)
+    print(f'QuestionText,{question},,,', file = target)
+    print(f'Pts,{pts},,,', file = target)
+    print(f'Difficulty,{level},,,', file = target)
+    print('Image,,,,', file = target) # unused
+    shuffle(options)
+    for (to, corr) in options:
+        if corr:
+            print(f'Option,100,\\({to}\\),,Nice work.', file = target)
+        else:
+            # partial credit could also be given by indicating a value > 0 but < 100        
+            print(f'Option,0,\\({to}\\),,"The CLRS textbook is great study resource for this topic."',
+              file = target)
+    print(f'Hint,{hint},,,', file = target)
+    print(f'Feedback,{feedback},,,', file = target)
+
+def compalg(target, level = 2, pts = 1):
+    (question, options) = mc_problem(level)
+    title = 'Algorithms'
+    hint = '"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode."' 
+    feedback = '"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter."'
+    print('NewQuestion,MC,,,', file = target)
+    print(f'ID,{qid()},,,', file = target)
+    print(f'Title,{title},,,', file = target)
+    print(f'QuestionText,{question},,,', file = target)
+    print(f'Pts,{pts},,,', file = target)
+    print(f'Difficulty,{level},,,', file = target)
+    print('Image,,,,', file = target) # unused
+    shuffle(options)
+    for (to, corr) in options:
+        if corr:
+            print(f'Option,100,\\({to}\\),,Nice work.', file = target)
+        else:
+            # partial credit could also be given by indicating a value > 0 but < 100        
+            print(f'Option,0,\\({to}\\),,"The CLRS textbook is great study resource for this topic."',
+              file = target)
+    print(f'Hint,{hint},,,', file = target)
+    print(f'Feedback,{feedback},,,', file = target)
+
 kinds = [
     logarithm, # 1
     booleval, # 2 
@@ -374,8 +423,11 @@ kinds = [
     modulo, # 4
     leaves, # 5
     vertexdegree, # 6
-    regression # 7 (would ideally be a FIB question, but there seems to be no template yet
+    regression, # 7 (would ideally be a FIB question, but there seems to be no template yet
+    compprob, # 8 a multiple-choice question about computational problems
+    compalg # 9 a multiple-choice question about algorithms
 ]
+
     
 def generate(count):
     category = 1
