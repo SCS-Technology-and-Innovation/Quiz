@@ -1,15 +1,15 @@
 NewQuestion,MC,,,
 ID,ElisaDemo_82,,,
 Title,Algorithms,,,
-QuestionText,What is the objective function of the matching problem?,,,
+QuestionText,What is the objective function of the knapsack?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,0,\(minimize the cardinality\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(minimize total capacity\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(that the divisor be the largest possible\),,"The CLRS textbook is great study resource for this topic."
-Option,100,\(maximize the coverage\),,Nice work.
-Option,0,\(maximize total value\),,"The CLRS textbook is great study resource for this topic."
+Option,0,"minimize total capacity",,"The CLRS textbook is great study resource for this topic."
+Option,0,"minimize the cardinality",,"The CLRS textbook is great study resource for this topic."
+Option,100,"maximize total value",,Nice work.
+Option,0,"minimize total cost",,"The CLRS textbook is great study resource for this topic."
+Option,0,"it is not an optimization problem",,"The CLRS textbook is great study resource for this topic."
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -17,15 +17,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_83,,,
 Title,Algorithms,,,
-QuestionText,What is the objective function of the greatest common divisor problem?,,,
+QuestionText,What is the goal of the edge cover problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,100,\(that the divisor be the largest possible\),,Nice work.
-Option,0,\(maximize cardinality\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(maximize the coverage\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(minimize the cardinality\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(maximize total value\),,"The CLRS textbook is great study resource for this topic."
+Option,100,"which edges to include",,Nice work.
+Option,0,"which vertices to include",,"The CLRS textbook is great study resource for this topic."
+Option,0,"how to transform a string into another",,"The CLRS textbook is great study resource for this topic."
+Option,0,"the selection of objects to include",,"The CLRS textbook is great study resource for this topic."
+Option,0,"to assign a color to each vertex",,"The CLRS textbook is great study resource for this topic."
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -33,15 +33,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_84,,,
 Title,Algorithms,,,
-QuestionText,What are the restrictions of the edit distance problem?,,,
+QuestionText,What is the goal of the travelling salesman problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,100,\(none\),,Nice work.
-Option,0,\(that all included vertices be neighbors\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(separate the source from the target, respecting the capacities\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(visit each vertex exactly once\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(that both divisions be exact\),,"The CLRS textbook is great study resource for this topic."
+Option,0,"its numeric value",,"The CLRS textbook is great study resource for this topic."
+Option,0,"which edges to include",,"The CLRS textbook is great study resource for this topic."
+Option,0,"how to transform a string into another",,"The CLRS textbook is great study resource for this topic."
+Option,0,"to assign a color to each vertex",,"The CLRS textbook is great study resource for this topic."
+Option,100,"in which order to make the visits",,Nice work.
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -49,15 +49,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_85,,,
 Title,Algorithms,,,
-QuestionText,What is the objective function of the $k$-coloring problem?,,,
+QuestionText,What is the objective function of the travelling salesman problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,100,\(it is not an optimization problem\),,Nice work.
-Option,0,\(that the divisor be the largest possible\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(minimize total capacity\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(minimize the cardinality\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(maximize total value\),,"The CLRS textbook is great study resource for this topic."
+Option,0,"it is not an optimization problem",,"The CLRS textbook is great study resource for this topic."
+Option,0,"maximize total value",,"The CLRS textbook is great study resource for this topic."
+Option,0,"maximize total flow",,"The CLRS textbook is great study resource for this topic."
+Option,0,"minimize total capacity",,"The CLRS textbook is great study resource for this topic."
+Option,100,"minimize total cost",,Nice work.
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -65,15 +65,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_86,,,
 Title,Algorithms,,,
-QuestionText,What is the objective function of the minimum cut problem?,,,
+QuestionText,What is the goal of the independent set problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,0,\(that the divisor be the largest possible\),,"The CLRS textbook is great study resource for this topic."
-Option,100,\(minimize total capacity\),,Nice work.
-Option,0,\(maximize total flow\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(maximize the coverage\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(maximize total value\),,"The CLRS textbook is great study resource for this topic."
+Option,0,"how to transform a string into another",,"The CLRS textbook is great study resource for this topic."
+Option,0,"which edges to include",,"The CLRS textbook is great study resource for this topic."
+Option,0,"the selection of objects to include",,"The CLRS textbook is great study resource for this topic."
+Option,100,"which vertices to include",,Nice work.
+Option,0,"to assign a color to each vertex",,"The CLRS textbook is great study resource for this topic."
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -81,15 +81,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_87,,,
 Title,Algorithms,,,
-QuestionText,What is the objective function of the edit distance problem?,,,
+QuestionText,What are the restrictions of the $k$-coloring problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,100,\(minimize total cost\),,Nice work.
-Option,0,\(minimize the cardinality\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(that the divisor be the largest possible\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(it is not an optimization problem\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(minimize total capacity\),,"The CLRS textbook is great study resource for this topic."
+Option,100,"that no pair of neighbors share a color",,Nice work.
+Option,0,"separate the source from the target, respecting the capacities",,"The CLRS textbook is great study resource for this topic."
+Option,0,"expand without introducing cycles",,"The CLRS textbook is great study resource for this topic."
+Option,0,"not to exceed the weight limit",,"The CLRS textbook is great study resource for this topic."
+Option,0,"that all included vertices be neighbors",,"The CLRS textbook is great study resource for this topic."
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -97,15 +97,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_88,,,
 Title,Algorithms,,,
-QuestionText,What are the restrictions of the clique problem?,,,
+QuestionText,What is the objective function of the matching problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,0,\(separate the source from the target, respecting the capacities\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(visit each vertex exactly once\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(none\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(not to repeat vertices\),,"The CLRS textbook is great study resource for this topic."
-Option,100,\(that all included vertices be neighbors\),,Nice work.
+Option,0,"minimize the cardinality",,"The CLRS textbook is great study resource for this topic."
+Option,0,"minimize total cost",,"The CLRS textbook is great study resource for this topic."
+Option,100,"maximize the coverage",,Nice work.
+Option,0,"that the divisor be the largest possible",,"The CLRS textbook is great study resource for this topic."
+Option,0,"maximize total value",,"The CLRS textbook is great study resource for this topic."
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -113,15 +113,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_89,,,
 Title,Algorithms,,,
-QuestionText,What is the computational complexity of the knapsack?,,,
+QuestionText,What is the objective function of the minimum cut problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,0,\(PSPACE-complete\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(polynomial\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(NP-complete\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(unknown\),,"The CLRS textbook is great study resource for this topic."
-Option,100,\(pseudopolynomial\),,Nice work.
+Option,0,"maximize cardinality",,"The CLRS textbook is great study resource for this topic."
+Option,0,"it is not an optimization problem",,"The CLRS textbook is great study resource for this topic."
+Option,0,"maximize total value",,"The CLRS textbook is great study resource for this topic."
+Option,100,"minimize total capacity",,Nice work.
+Option,0,"maximize total flow",,"The CLRS textbook is great study resource for this topic."
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -129,15 +129,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_90,,,
 Title,Algorithms,,,
-QuestionText,What is the computational complexity of the vertex cover problem?,,,
+QuestionText,What are the restrictions of the greatest common divisor problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,100,\(NP-complete\),,Nice work.
-Option,0,\(unknown\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(PSPACE-complete\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(pseudopolynomial\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(polynomial\),,"The CLRS textbook is great study resource for this topic."
+Option,0,"not to exceed the weight limit",,"The CLRS textbook is great study resource for this topic."
+Option,0,"not to repeat vertices",,"The CLRS textbook is great study resource for this topic."
+Option,0,"none",,"The CLRS textbook is great study resource for this topic."
+Option,0,"visit each vertex exactly once",,"The CLRS textbook is great study resource for this topic."
+Option,100,"that both divisions be exact",,Nice work.
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,
@@ -145,15 +145,15 @@ Feedback,"These are not questions that are easy to memorize, but once you unders
 NewQuestion,MC,,,
 ID,ElisaDemo_91,,,
 Title,Algorithms,,,
-QuestionText,What is the computational complexity of the minimum cut problem?,,,
+QuestionText,What are the restrictions of the vertex cover problem?,,,
 Pts,1,,,
 Difficulty,2,,,
 Image,,,,
-Option,0,\(unknown\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(PSPACE-complete\),,"The CLRS textbook is great study resource for this topic."
-Option,0,\(pseudopolynomial\),,"The CLRS textbook is great study resource for this topic."
-Option,100,\(polynomial\),,Nice work.
-Option,0,\(NP-complete\),,"The CLRS textbook is great study resource for this topic."
+Option,100,"that each edge be covered at least once",,Nice work.
+Option,0,"that all included vertices be neighbors",,"The CLRS textbook is great study resource for this topic."
+Option,0,"not to exceed the weight limit",,"The CLRS textbook is great study resource for this topic."
+Option,0,"that none of the included vertices be neighbors",,"The CLRS textbook is great study resource for this topic."
+Option,0,"not to repeat vertices",,"The CLRS textbook is great study resource for this topic."
 Hint,"Each algorithm solves a specific problem. The inputs and outputs depend on the characteristics of that problem. For the complexity, pay special attention to any loops or recursive calls in the pseucocode.",,,
 Feedback,"These are not questions that are easy to memorize, but once you understand the essence of the algorithm, the pseudocode starts to make sense shortly thereafter.",,,
 ,,,,

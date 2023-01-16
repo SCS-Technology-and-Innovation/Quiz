@@ -385,10 +385,10 @@ def compprob(target, level = 2, pts = 1):
     shuffle(options)
     for (to, corr) in options:
         if corr:
-            print(f'Option,100,\\({to}\\),,Nice work.', file = target)
+            print(f'Option,100,"{to}",,Nice work.', file = target)
         else:
             # partial credit could also be given by indicating a value > 0 but < 100        
-            print(f'Option,0,\\({to}\\),,"The CLRS textbook is great study resource for this topic."',
+            print(f'Option,0,"{to}",,"The CLRS textbook is great study resource for this topic."',
               file = target)
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
@@ -408,10 +408,10 @@ def compalg(target, level = 2, pts = 1):
     shuffle(options)
     for (to, corr) in options:
         if corr:
-            print(f'Option,100,\\({to}\\),,Nice work.', file = target)
+            print(f'Option,100,"{to}",,Nice work.', file = target)
         else:
             # partial credit could also be given by indicating a value > 0 but < 100        
-            print(f'Option,0,\\({to}\\),,"The CLRS textbook is great study resource for this topic."',
+            print(f'Option,0,"{to}",,"The CLRS textbook is great study resource for this topic."',
               file = target)
     print(f'Hint,{hint},,,', file = target)
     print(f'Feedback,{feedback},,,', file = target)
