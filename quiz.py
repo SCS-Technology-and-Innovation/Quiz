@@ -316,7 +316,14 @@ def vertexdegree(target, count = 4, level = 3):
 
 
 # regression, for now as a multiple choice question
+def noise(width):
+    r = random() * width
+    if random() < 0.5:
+        r *= -1
+    return r
+
 from casestudy import select
+from math import fabs
 url = "https://scs-technology-and-innovation.github.io/casestudy/demo/select.html"
 def regression(target, pts = 1, level = 1): 
     n = level * 10 # number of data points
@@ -327,15 +334,12 @@ def regression(target, pts = 1, level = 1):
     inverted = f'"Slope {b}, intercept {a}"'
     options = { corr, inverted }
     opt = 3 * level * 2
-    low = level / 2
-    high = 2 * level
     na = float(a)
     nb = float(b)
+    width = (fabs(na) + fabs(nb)) / 2
     while len(options) < opt:
-        fa = na + (high - low) * random() + low
-        fb = nb + (high - low) * random() + low
-        fas = fs.format(fa)
-        fbs = fs.format(fb)
+        fas = fs.format(na + noise(width))
+        fbs = fs.format(nb + noise(width))
         fake = f'"Slope {fas}, intercept {fbs}"'
         invfake = f'"Slope {fbs}, intercept {fas}"'
         options.add(fake)
