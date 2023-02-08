@@ -439,4 +439,4 @@ def generate(count):
         category += 1
 
 if __name__ == '__main__':
-    generate(10) # just a demo (you can do hundreds if you'd like)
+    generate(50) # just a demo (you can do hundreds if you'd like)
